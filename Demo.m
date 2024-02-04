@@ -17,7 +17,7 @@ name{4}='SOFIS';
 name{5}='SAFL';
 name{6}='eClass0';
 
-%% The level of granularity of the classifiers; nan means do not need this parameter
+%% The level of granularity of the classifiers; nan means do not need this parameter; for this with a valid value, it can be replaced by any nonnegative integer
 GL{1}=9;
 GL{2}=nan;
 GL{3}=nan;
