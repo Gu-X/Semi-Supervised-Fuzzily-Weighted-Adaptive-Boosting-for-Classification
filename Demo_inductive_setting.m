@@ -5,7 +5,7 @@ load ExampleData
 % DTra1: labelled training data
 % LTra1: labels of DTra1
 % DTes1: unlabelled training data/testing data
-% LTes1: group truth of DTes1
+% LTes1: ground truth of DTes1
 
 k=5; % choose the EFS classifier as the base learner. k can be 1~6
 NN=20; % number of base learners;
@@ -17,7 +17,7 @@ name{4}='SOFIS';
 name{5}='SAFL';
 name{6}='eClass0';
 
-%% The level of granularity of the classifiers; nan means do not need this parameter; for this with a valid value, it can be replaced by any nonnegative integer
+%% The level of granularity of the classifiers; nan means no need for this parameter; for this with a valid value, it can be replaced by any nonnegative integer
 GL{1}=9;
 GL{2}=nan;
 GL{3}=nan;
